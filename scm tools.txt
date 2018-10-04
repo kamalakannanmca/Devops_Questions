@@ -2,3 +2,63 @@ What is Source Control?
 
 Source control (or version control) is the practice of tracking and managing changes to code. Source control management (SCM) systems provide a running history of code development and help to resolve conflicts when merging contributions from multiple sources.
 
+List of SCM Tools:
+1.Local data model
+	Open source:
+		Revision Control System (RCS) – stores the latest version and backward deltas for fastest access to the trunk tip compared to SCCS and an improved user interface, at the cost of slow branch tip access and missing support for included/excluded deltas.
+		Source Code Control System (SCCS) – part of UNIX; based on interleaved deltas, can construct versions as arbitrary sets of revisions. Extracting an arbitrary version takes essentially the same time and is thus more useful in environments that rely heavily on branching and merging with multiple "current" and identical versions.
+
+2.Client-server model:
+	Open Source:
+		Concurrent Versions System (CVS) – originally built on RCS, licensed under the GPL.
+		CVSNT – cross-platform port of CVS that allows case insensitive file names among other changes
+		OpenCVS – CVS clone under the BSD license, with emphasis put on security and source code correctness
+		Subversion (SVN) – versioning control system inspired by CVS
+		Vesta – build system with a versioning file system and support for distributed repositories
+
+	Proprietary
+		AccuRev – source configuration management tool with integrated issue tracking based on "Streams" that efficiently manages parallel and global development; replication server is also available. Now owned by Micro Focus.
+		Autodesk Vault – Version control tool specifically designed for Autodesk applications managing the complex relationships between design files such as AutoCAD and Autodesk Inventor.
+		CADES - Designer productivity and version control system by International Computers Limited.
+		Dimensions CM - software change and configuration management system developed by Micro Focus, formerly Serena Software, that includes revision control.
+		Helix Core, formerly Perforce Helix - for large scale development environments
+		IBM Configuration Management Version Control (CMVC) – version control system, no longer available.
+		IBM Rational ClearCase – SCC compliant configuration management system by IBM Rational Software
+		IBM Rational Synergy – SCC compliant integrated change management and task-based configuration management system, proprietary of IBM.
+		IBM Rational Team Concert – Collaboration and application lifecycle management platform by IBM Rational Software
+		IC Manage Global Design Platform (GDP) – design data management for IC design and Perforce infrastructure support.
+		Panvalet - Around since the 1970s, source and object control for IBM mainframe computers.
+		PTC Integrity (Formerly MKS Integrity).
+		PVCS – originally Polytron Version Control System, developed by Don Kinzer at Polytron, first released in 1985. Now owned by Micro Focus.
+		Quma Version Control System
+		Razor (configuration management), integrated suite from Visible Systems
+		StarTeam – coordinates and manages software delivery process by Micro Focus, formerly Borland; centralized control of digital assets and activities
+		Surround SCM – version control tool by Seapine Software.
+		Team Foundation Server (TFS) - Development software by Microsoft which includes revision control.
+		TeamWork – version control tool by DBmaestro; oriented to DBMs
+		Vault – version control tool by SourceGear (First installation can be used for free)
+		Visual SourceSafe – version control tool by Microsoft; oriented toward small teams
+		Visual Studio Team Services (VSTS) - Services for teams to share code, track work, and ship software for any language by Microsoft
+
+3.Distributed model:
+	Open Source:
+		ArX – written by Walter Landry, started as a fork of GNU arch, but has been completely rewritten
+		Bazaar – written in Python, originally by Martin Pool and sponsored by Canonical; decentralised, and aims to be fast and easy to use; can losslessly import Arch archives
+		BitKeeper – was used in Linux kernel development (2002 – April 2005) until its license was revoked for breach of contract. It was open-sourced in 2016 in an attempt to broaden its appeal again.
+		Codeville – written in Python originally by Ross Cohen; uses an innovative merging algorithm
+		Darcs – written in Haskell and originally developed by David Roundy; can keep track of inter-patch dependencies and automatically rearrange and "cherry-pick" them using a "theory of patches"
+		DCVS – decentralized and CVS-based
+		Fossil – written by D. Richard Hipp for SQLite; distributed revision control, wiki, and bug-tracking (all-in-one solution) with console and web interfaces. Single portable executable and single repository file.
+		Git – written in a collection of Perl, C, and various shell scripts, designed by Linus Torvalds based on the needs of the Linux kernel project; decentralized, and aims to be fast, flexible, and robust
+		      GNU arch
+		Mercurial – written in Python as an Open Source replacement to BitKeeper; decentralized and aims to be fast, lightweight, portable, and easy to use
+		Monotone – developed by the Monotone Team; decentralized in a peer-to-peer way
+		SVK – written in Perl by Kao Chia-liang; built on top of Subversion to allow distributed commits
+		Veracity - Is another distributed version control system which includes bug tracking and Agile software development tools integrated with the version control features.
+
+	Proprietary:
+		Code Co-op – peer-to-peer version control system (can use e-mail for synchronization)
+		Sun WorkShop TeamWare – designed[citation needed] by Larry McVoy, creator of BitKeeper
+		Plastic SCM – by Codice Software, Inc
+		Visual Studio Team Services - Services for teams to share code, track work, and ship software for any language by Microsoft
+
