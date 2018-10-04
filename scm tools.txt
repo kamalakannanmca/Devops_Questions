@@ -1,0 +1,4 @@
+What is Source Control?
+
+Source control (or version control) is the practice of tracking and managing changes to code. Source control management (SCM) systems provide a running history of code development and help to resolve conflicts when merging contributions from multiple sources.
+
